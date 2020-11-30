@@ -10,17 +10,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
+
     private String studentName;
     private String studentSurname;
     private String studentEmail;
     private String studentPassword;
 
-
-
-
-    public static void main(String[] args) {
-        QuizForStudent.quizForum();
-    }
 }
 
 
