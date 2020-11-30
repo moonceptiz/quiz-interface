@@ -29,7 +29,6 @@ public class HomePage {
 
         if (user.equals("student")) {
             GatherInfo.gatherInformation(new StudentGather());
-
         } else if (user.equals("Teacher")) {
             GatherInfo.gatherInformation(new TeacherGather());
         } else
