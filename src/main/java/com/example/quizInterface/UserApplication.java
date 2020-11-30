@@ -1,4 +1,4 @@
-package quizzz.quiz;
+package com.example.quizInterface;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

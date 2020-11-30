@@ -1,9 +1,9 @@
-package home.teacher;
+package com.example.quizInterface.teacher;
 
+import com.example.quizInterface.util.InputUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import home.util.InputUtil;
 
 @Data
 @AllArgsConstructor

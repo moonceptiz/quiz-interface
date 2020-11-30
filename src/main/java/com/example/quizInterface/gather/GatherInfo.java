@@ -1,4 +1,4 @@
-package home.gather;
+package com.example.quizInterface.gather;
 
 public class GatherInfo {
 

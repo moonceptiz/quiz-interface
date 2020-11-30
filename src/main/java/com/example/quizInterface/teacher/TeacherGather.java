@@ -1,8 +1,8 @@
-package home.teacher;
+package com.example.quizInterface.teacher;
 
 
-import home.gather.Gather;
-import home.util.InputUtil;
+import com.example.quizInterface.gather.Gather;
+import com.example.quizInterface.util.InputUtil;
 
 public class TeacherGather implements Gather {
 

@@ -1,4 +1,4 @@
-package home.util;
+package com.example.quizInterface.util;
 
 import java.util.Scanner;
 

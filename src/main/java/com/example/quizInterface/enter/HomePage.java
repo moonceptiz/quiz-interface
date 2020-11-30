@@ -1,6 +1,8 @@
-package home.enter;
+package com.example.quizInterface.enter;
 
-import home.gather.GatherInfo;
+import com.example.quizInterface.student.StudentGather;
+import com.example.quizInterface.teacher.TeacherGather;
+import com.example.quizInterface.gather.GatherInfo;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -26,10 +28,10 @@ public class HomePage {
 
 
         if (user.equals("student")) {
-            GatherInfo.gatherInformation(new home.student.StudentGather());
+            GatherInfo.gatherInformation(new StudentGather());
 
         } else if (user.equals("Teacher")) {
-            GatherInfo.gatherInformation(new home.teacher.TeacherGather());
+            GatherInfo.gatherInformation(new TeacherGather());
         } else
             System.out.println("Wrong choose!");
     }

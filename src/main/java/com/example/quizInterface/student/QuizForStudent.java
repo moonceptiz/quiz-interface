@@ -1,16 +1,16 @@
-package home.student;
+package com.example.quizInterface.student;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import home.util.InputUtil;
+import com.example.quizInterface.util.InputUtil;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class QuizForStudent extends home.student.Student {
+public class QuizForStudent extends Student {
 
     private String quizTheme;
     private String quizLevel;

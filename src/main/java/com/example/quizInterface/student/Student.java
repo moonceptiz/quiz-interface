@@ -1,4 +1,4 @@
-package home.student;
+package com.example.quizInterface.student;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
