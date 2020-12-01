@@ -5,6 +5,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableFeignClients(basePackages = {"com.example.quizInterface.config"})
 public class FeignClientConfiguration {
-
 }
 
